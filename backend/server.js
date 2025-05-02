@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 5000;
 
-const allowedOrigins = ['http://localhost:3000', 'https://your-frontend-url.onrender.com'];
+const allowedOrigins = ['http://localhost:5000', 'https://mariapaulamora-portfolio.onrender.com'];
 
 app.use(cors({
   origin: function (origin, callback) {
