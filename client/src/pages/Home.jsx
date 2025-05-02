@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 import Footer from '../components/Footer.jsx';
 import Header from '../components/Header.jsx';
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; 
+import resume from '../assets/MariaPaulaMora_Resume.pdf';
 import profilePic from '../assets/MariaPaulaMora.jpeg';
 import project1 from "../assets/AdvocateFundraising.png";
 import project2 from "../assets/CourseRegistration.png";
@@ -28,7 +29,7 @@ const Home = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('/api/contact', {
+    const response = await fetch('https://mariapaulamora-portfolio.onrender.com/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -68,7 +69,7 @@ const Home = () => {
     <FaGithub style={{ marginRight: '8px' }} /> GitHub
   </a>
   <a
-    href="https://drive.google.com/file/d/1vJiyYVGCpQ96bJzHRO9K7R_pULRjUuAF/view?usp=sharing"
+    href={resume}
     className="social-link"
     target="_blank"
     rel="noopener noreferrer"

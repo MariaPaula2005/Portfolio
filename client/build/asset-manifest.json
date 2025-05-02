@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4473a0a.css",
+    "main.js": "/static/js/main.ce49842c.js",
+    "static/js/317.05284531.chunk.js": "/static/js/317.05284531.chunk.js",
+    "static/media/TimeCast.mp4": "/static/media/TimeCast.d710d5c44c874e32a655.mp4",
+    "static/media/DebuggingDucks.png": "/static/media/DebuggingDucks.53dd595e1ac4ce498c37.png",
+    "static/media/AdvocateFundraising.png": "/static/media/AdvocateFundraising.449c01db79f51ace3aa1.png",
+    "static/media/WorkWise.png": "/static/media/WorkWise.ff5c68500c8d9122e9b7.png",
+    "static/media/MariaPaulaMora_Resume.pdf": "/static/media/MariaPaulaMora_Resume.2c6b6ec1105869682204.pdf",
+    "static/media/MariaPaulaMora.jpeg": "/static/media/MariaPaulaMora.81f3513e53a762c0d95f.jpeg",
+    "static/media/CourseRegistration.png": "/static/media/CourseRegistration.a429cc01b1e4537d386a.png",
+    "index.html": "/index.html",
+    "main.e4473a0a.css.map": "/static/css/main.e4473a0a.css.map",
+    "main.ce49842c.js.map": "/static/js/main.ce49842c.js.map",
+    "317.05284531.chunk.js.map": "/static/js/317.05284531.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4473a0a.css",
+    "static/js/main.ce49842c.js"
+  ]
+}
